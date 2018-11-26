@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +11,7 @@ a {
     text-decoration-color: lightgray;
 }
 a:hover {
-    color: lightblue;
+    color: royalblue;
 }
 .dede {
     width: 1140px;
@@ -29,6 +27,8 @@ a:hover {
    
 }
 #baslik {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
 }
 h1  {
@@ -43,27 +43,26 @@ p {
     margin-top: 10px;
 }
 .baba {
-    
     width: 30%;
     background-color: beige;
     padding: 25px;
-    
     float: left;
     margin-top: 149px;
-    margin-left: 15px;
-    
+    margin-left: 15px;  
+}
+.teyze {
+    width: 30%;
+    background-color: beige;
+    padding: 25px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px; 
 }
 .amca   {
     padding: 10px;
     padding-bottom: -10px;
 }
-.teyze {
-    float: left;
-    background-color: beige;
-    margin-top: 20px;
-    
-    
-}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -91,7 +90,14 @@ button:hover {
     color: #00247d;
     cursor: pointer;
 }
-
+#link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#link:hover {
+    color: royalblue;
+}
 .link   {
     float: left;
     padding-top: 5px;
