@@ -1,0 +1,128 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+a:hover {
+    color: lightblue;
+}
+.dede {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ana {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 30px 0 15px 0;
+    float: left;
+   
+}
+#baslik {
+    vertical-align: middle;
+}
+h1  {
+
+margin-bottom: 25px;
+}
+h2 {
+    margin-top: 15px;
+}
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+.baba {
+    
+    width: 30%;
+    background-color: beige;
+    padding: 25px;
+    
+    float: left;
+    margin-top: 149px;
+    margin-left: 15px;
+    
+}
+.amca   {
+    padding: 10px;
+    padding-bottom: -10px;
+}
+.teyze {
+    float: left;
+    background-color: beige;
+    margin-top: 20px;
+    
+    
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header {
+    background-color: #cf142b;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    text-align: center
+
+}
+
+button {
+    background-color: #00247d;
+    border: 0ch;
+    height: 25px;
+    width: 85px;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    color: #00247d;
+    cursor: pointer;
+}
+
+.link   {
+    float: left;
+    padding-top: 5px;
+    color: black;
+    cursor: pointer;
+    text-decoration: white
+}
+.link:hover {
+    color: gray;
+}
+.author {
+    padding-top: 15px;
+    border-top: black 1px solid;
+    float: left;
+    position: absolute;
+    
+}
+.author-text {
+    margin-left: 15px;
+    float: left;
+    margin-top: 25px;
+}
+
+.author img {
+    width: 60px;
+    border-radius: 40%;
+    float: left;   
+}
+
+.img {
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+}
